@@ -12,8 +12,8 @@ def pessoa_valida():
                                 Generos.MASCULINO, EstadoCivil.CASADO)
     return pessoaFisica
 
-def test_pessoaJuridica_id_valido(pessoa_valida):
+def test_pessoaFisica_id_valido(pessoa_valida):
      assert pessoa_valida.id == "333"
 
-def test_pessoaJuridica_nome_valido(pessoa_valida):
+def test_pessoaFisica_nome_valido(pessoa_valida):
      assert pessoa_valida.nome == "Mateus"
